@@ -12,3 +12,4 @@ C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson02\obj\Debug\net10.0\re
 C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson02\obj\Debug\net10.0\Lesson02.pdb
 C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson02\obj\Debug\net10.0\Lesson02.genruntimeconfig.cache
 C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson02\obj\Debug\net10.0\ref\Lesson02.dll
+C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson02\obj\Debug\net10.0\Lesson02.sourcelink.json

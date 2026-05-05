@@ -2,7 +2,7 @@
 
 public class Animal
 {
-    public void Walk()
+    public virtual void Walk()
     {
         Console.WriteLine("Animal:Walk");
     }

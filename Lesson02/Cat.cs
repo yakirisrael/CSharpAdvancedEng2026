@@ -2,7 +2,7 @@
 
 public class Cat : Animal
 {
-    public void Walk()
+    public override void Walk()
     {
         Console.WriteLine("Cat:Walk");
     }

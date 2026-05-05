@@ -2,7 +2,7 @@
 
 public class StreetCat : Cat
 {
-    public void Walk()
+    public override void Walk()
     {
         Console.WriteLine("StreetCat:Walk");
     }
