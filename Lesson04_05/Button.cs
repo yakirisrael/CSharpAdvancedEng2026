@@ -27,7 +27,7 @@ public class Button
         buttonClickDelegate -= method;
     }
     
-    public void ClickMethod(int id)
+    public static void ClickMethod(int id)
     {
         Console.WriteLine("Clicked on button " + id);
     }

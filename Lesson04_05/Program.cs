@@ -3,10 +3,10 @@
 using Lesson04;
 
 Button b = new Button(202);
-b.Subscribe(b.ClickMethod);
+b.Subscribe(Button.ClickMethod);
 
 Button b2 = new Button(444);
-b2.Subscribe(b2.ClickMethod);
+b2.Subscribe(Button.ClickMethod);
 
 // could occur later in the game
 b.Click();
