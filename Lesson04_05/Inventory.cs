@@ -1,6 +1,8 @@
-﻿namespace Lesson04;
+﻿using System.Collections;
 
-public class Inventory
+namespace Lesson04;
+
+public class Inventory : IEnumerable
 {
     private readonly int capacity;
     
@@ -71,5 +73,22 @@ public class Inventory
                 throw new IndexOutOfRangeException();
             }
         }
+    }
+
+    public override string ToString()
+    {
+        Console.WriteLine("Inventory items:");
+        
+        string result = "";
+        foreach (var item in items)
+        {
+           result += item + " ";
+        }
+        return result;
+    }
+
+    public IEnumerator GetEnumerator()
+    {
+        return new ItemIterator(items);
     }
 }

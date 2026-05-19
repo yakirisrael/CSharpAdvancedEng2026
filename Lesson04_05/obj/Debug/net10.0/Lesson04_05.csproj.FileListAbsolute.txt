@@ -1,0 +1,15 @@
+C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson04_05\bin\Debug\net10.0\Lesson04_05.exe
+C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson04_05\bin\Debug\net10.0\Lesson04_05.deps.json
+C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson04_05\bin\Debug\net10.0\Lesson04_05.runtimeconfig.json
+C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson04_05\bin\Debug\net10.0\Lesson04_05.dll
+C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson04_05\bin\Debug\net10.0\Lesson04_05.pdb
+C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson04_05\obj\Debug\net10.0\Lesson04_05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson04_05\obj\Debug\net10.0\Lesson04_05.AssemblyInfoInputs.cache
+C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson04_05\obj\Debug\net10.0\Lesson04_05.AssemblyInfo.cs
+C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson04_05\obj\Debug\net10.0\Lesson04_05.csproj.CoreCompileInputs.cache
+C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson04_05\obj\Debug\net10.0\Lesson04_05.sourcelink.json
+C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson04_05\obj\Debug\net10.0\Lesson04_05.dll
+C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson04_05\obj\Debug\net10.0\refint\Lesson04_05.dll
+C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson04_05\obj\Debug\net10.0\Lesson04_05.pdb
+C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson04_05\obj\Debug\net10.0\Lesson04_05.genruntimeconfig.cache
+C:\Users\yakir\RiderProjects\CSharpAdvancedEng2026\Lesson04_05\obj\Debug\net10.0\ref\Lesson04_05.dll
