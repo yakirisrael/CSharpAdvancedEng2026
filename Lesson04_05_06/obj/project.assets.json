@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yakir\\RiderProjects\\CSharpAdvancedEng2026\\Lesson04_05\\Lesson04_05.csproj",
-      "projectName": "Lesson04_05",
-      "projectPath": "C:\\Users\\yakir\\RiderProjects\\CSharpAdvancedEng2026\\Lesson04_05\\Lesson04_05.csproj",
+      "projectUniqueName": "C:\\Users\\yakir\\RiderProjects\\CSharpAdvancedEng2026\\Lesson04_05_06\\Lesson04_05_06.csproj",
+      "projectName": "Lesson04_05_06",
+      "projectPath": "C:\\Users\\yakir\\RiderProjects\\CSharpAdvancedEng2026\\Lesson04_05_06\\Lesson04_05_06.csproj",
       "packagesPath": "C:\\Users\\yakir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yakir\\RiderProjects\\CSharpAdvancedEng2026\\Lesson04_05\\obj\\",
+      "outputPath": "C:\\Users\\yakir\\RiderProjects\\CSharpAdvancedEng2026\\Lesson04_05_06\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yakir\\AppData\\Roaming\\NuGet\\NuGet.Config",

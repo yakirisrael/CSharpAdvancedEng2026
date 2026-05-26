@@ -2,16 +2,16 @@
 
 namespace Lesson04;
 
-public class Inventory : IEnumerable
+public class Inventory<T> : IEnumerable
 {
     private readonly int capacity;
     
-    private Item[] items;
+    private T[] items;
 
     public Inventory(int capacity)
     {
         this.capacity = capacity;
-        items = new Item[capacity];
+        items = new T[capacity];
     }
 
     public int Capacity
@@ -24,7 +24,7 @@ public class Inventory : IEnumerable
         get
         {
             int count = 0;
-            foreach (Item item in items)
+            foreach (T item in items)
             {
                 if (item != null)
                      count++;
@@ -40,20 +40,20 @@ public class Inventory : IEnumerable
         return capacity > index && index >= 0;
     }
 
-    public Item this[string name]
+  /*  public Item this[string name]
     {
         get
         {
-            foreach (Item item in items)
+            foreach (T item in items)
             {
                 if (item != null && item.Name == name)
                     return item;
             }
             return null;
         }
-    }
+    }*/
 
-    public Item this[int index]
+    public T this[int index]
     
     {
         get
@@ -89,6 +89,6 @@ public class Inventory : IEnumerable
 
     public IEnumerator GetEnumerator()
     {
-        return new ItemIterator(items);
+        return new ItemIterator<T>(this);
     }
 }

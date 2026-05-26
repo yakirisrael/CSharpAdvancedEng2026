@@ -2,6 +2,7 @@
 
 using Lesson04;
 
+/*
 Button b = new Button(202);
 b.Subscribe(Button.ClickMethod);
 
@@ -11,15 +12,26 @@ b2.Subscribe(Button.ClickMethod);
 // could occur later in the game
 b.Click();
 b2.Click();
+*/
+
+Factory<Item> factory = new Factory<Item>();
+Factory<Item>.Instance().Name = "sad";
+Factory<Item>.Instance().Name = "ff";
+
 
 
 
 
 //Calculator.Operation op = Calculator.Subtract;
 //Console.WriteLine(op(10, 2, 3));
+Inventory<string> string_inventory = new (5);
+string_inventory[0] = "sword";
+string_inventory[1] = "axe";
 
-/*
-Inventory inventory = new (100);
+Inventory<int> int_inventory = new (3);
+int_inventory[0] = 12130;
+
+Inventory<Item> inventory = new (100);
 Console.WriteLine("capacity = " + inventory.Capacity);
 Console.WriteLine("count = " + inventory.Count);
 
@@ -51,7 +63,7 @@ foreach (var item in inventory)
          Console.WriteLine(item);
 }
 
-*/
+
 /*
 Console.WriteLine(inventory.Count.ToString());
 Console.WriteLine(inventory[1].Name.ToString());
