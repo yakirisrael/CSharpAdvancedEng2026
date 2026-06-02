@@ -1,14 +1,24 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Numerics;
 using Lesson07;
 
-List<Player> players = new List<Player>()
+string path = "MyFiles";
+var files = Directory.EnumerateFiles(path, "*.txt", SearchOption.AllDirectories);
+var infos = files.Select(f => new FileInfo(f)).Where(
+    f => f.Length > 2 && f.LastWriteTime > DateTime.Now.AddDays(-1));
+
+foreach (var info in infos)
+{
+    Console.WriteLine(info);
+}
+
+/*List<Player> players = new List<Player>()
 {
     new Player("YakirIsrael", 80),
     new Player("MeAgain", 40),
     new Player("ThirdTimeIceCream", 70)
 };
-
 
 //Console.WriteLine(
  //   $"name = {players[0].name.SpaceString()} , score {players[0].score}");
@@ -21,7 +31,7 @@ foreach (var p in newPlayers)
     Console.WriteLine($"name = {p.name}, score {p.score}");
 }
 
-
+*/
 
 /*
 string s = "somthing";
